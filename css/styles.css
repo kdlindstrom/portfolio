@@ -1,5 +1,35 @@
-.picture-header {
-  height: 500px;
+body {
+  background-color:lightgray;
+
+}
+.face-header{
+  height:400px;
   width:auto;
-  background-image: /img/desktop.jpeg("desktop.jpeg");
+}
+#profile {
+   max-height:400px;
+   width:auto;
+   float: right;
+
+ }
+#second-section{
+  background: white;
+   width:100%;
+   height: 400px;
+ }
+
+#blurb{
+  text-align: center;
+  padding: 10%;
+  padding-left: 10%;
+  color:white;
+}
+#desk {
+
+}
+#third-section{
+  background-image: url("../img/desk.png");
+  background-size: cover;
+  height: 1000px;
+  width: auto;
 }
