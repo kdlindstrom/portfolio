@@ -1,20 +1,17 @@
-@media only screen and (max-width: 600px) {
-  p, li{
-    font-size: 19pt;
-  }
-  }
-@media only screen and (min-width: 600px) {
-  p, li{
-    font-size: 15pt;
-  }
-  }
 
 body {
   font-family: 'Josefin Sans', sans-serif;
   background-color: lightgray;
 }
+p {
+  font-family: helvetica;
+}
 .nav-pills .nav-link {
-  background-color:
+  color: #3d2e1a;
+}
+.btn {
+  background-color: #3d2e1a;
+  border-width: 0px;
 }
 .transparent-band {
   background-image: url("../img/desk.png");
@@ -50,11 +47,13 @@ body {
  }
 
 #third-section{
-  background-color:darkgray;
-  height: 1100px;
-  width: auto;
+  background-color:lightgray;
+  padding:5%;
+  padding-top: 100px;
 }
-
+.about-me-text {
+  column-count: 2;
+}
 .site-photo{
   width:100%;
   height:auto;
@@ -68,3 +67,15 @@ body {
   padding-left: 5%;
   padding-top: 50px;
 }
+@media only screen and (max-width: 600px) {
+  p, li{
+    font-size: 19pt;}
+  .about-me-text{
+    column-count:1;
+  }
+  }
+@media only screen and (min-width: 600px) {
+  p, li{
+    font-size: 12pt;
+  }
+  }
