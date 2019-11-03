@@ -24,12 +24,20 @@ body {
   padding-left: 10%;
   color:white;
 }
-#desk {
 
-}
 #third-section{
   background-image: url("../img/desk.png");
   background-size: cover;
-  height: 1000px;
+  background-position: center;
+  height: 1100px;
   width: auto;
+}
+#vacation-photo{
+  width:100%;
+  height:auto;
+  padding-top: 3%;
+}
+#vacation-text{
+  color:white;
+  padding: 3%;
 }
