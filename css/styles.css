@@ -1,61 +1,70 @@
 @media only screen and (max-width: 600px) {
-  p{
+  p, li{
+    font-size: 19pt;
+  }
+  }
+@media only screen and (min-width: 600px) {
+  p, li{
     font-size: 15pt;
   }
-}
-@media only screen and (min-width: 600px) {
-  p{
-    font-size: 12pt;
   }
-  }
+
 body {
-  background-color:lightgray;
   font-family: 'Josefin Sans', sans-serif;
+  background-color: lightgray;
 }
-.navb{
-  position:fixed;
-  top:0;
-  width:100%;
+.nav-pills .nav-link {
+  background-color:
 }
+.transparent-band {
+  background-image: url("../img/desk.png");
+  height: 250px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #first-section{
-  padding-top: 40px;
 }
-#profile-pic {
-   height: 416px;
-   width:auto;
-   float: right;
 
- }
-#second-section{
-  background: darkgray;
-   width:100%;
-   height: auto;
-   padding-top:5%;
-   padding-bottom: 5%;
- }
-
+#second-section {
+  background-image: url("../img/desk.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:5%;
+}
 #blurb{
   text-align: center;
-  padding: 10%;
-  padding-left: 10%;
-  color:white;
+  padding-top: 100px;
+  color:#3d2e1a;
 }
+#profile-pic {
+   height: 422px;
+   width:auto;
+   float: right;
+   bottom:0;
+ }
 
 #third-section{
-  background-image: url("../img/desk.png");
-  background-size: cover;
-  background-position: center;
+  background-color:darkgray;
   height: 1100px;
   width: auto;
 }
-#site-photo{
+
+.site-photo{
   width:100%;
   height:auto;
   margin:auto;
   display: block;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
+
 #sample-site-text{
   color:white;
   padding-left: 5%;
+  padding-top: 50px;
 }
