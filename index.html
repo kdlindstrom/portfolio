@@ -3,26 +3,28 @@
 <head>
   <meta charset="utf-8">
   <title>Kyle Lindstrom</title>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <div class="container">
-    <ul class="nav nav-pills">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#second-section">Section Two</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#third-section">Section Three</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-      <div class="row">
+        <nav class="navbar fixed-top navbar-light bg-light justify-content-center">
+        <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#second-section">Section Two</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#third-section">Section Three</a>
+        </li>
+        </ul>
+      </nav>
+  </div>
+  <div class="container">
+      <div class="row"id="first-section">
         <div class="col-md-6" id="blurb">
           <h2> Hi. My name is</h>
           <h1>Kyle Lindstrom.</h1>
@@ -36,38 +38,29 @@
   </div>
   <div id="second-section">
     <div class="container">
-      <h1>test</h1>
-    </div>
-  </div>
-  <div id="third-section">
-    <div class="container">
-      <h1 id=sample-site-text> Want to see some shoddy work?</h1>
-      <div class="row" id= "sample-site-text">
-        <div class="col-md-4">
-          Here's a garbage website supposedly about a vacation! It's full of lorem ipsum text and uses bootstrap's grid system to create three columns.
+
+        <h1 id=sample-site-text> Want to see some shoddy work?</h1>
+        <div class="row" id= "sample-site-text">
+          <div class="col-md-4">
+            Here's a garbage website supposedly about a vacation! It's full of lorem ipsum text and uses bootstrap's grid system to create three columns.
+            <a href="https://kdlindstrom.github.io/vacation/"><img id="site-photo"src="img/vacation.png"></a>
+            </div>
+          <div class="col-md-4">
+            Here's an example of a garbage website where my partner and I tried to re-create wikipedia! It's a lot of nested columns and rows.
+              <a href="https://kdlindstrom.github.io/wikipedia/"><img id="site-photo"src="img/wiki.png"></a>
           </div>
-        <div class="col-md-4">
-          Here's an example of a garbage website where my partner and I tried to re-create wikipedia!
+          <div class="col-md-4">
+            Oh you thought that last one was bad? This one is a site for a hypothetical animal shelter.  It shows how classes and IDs can be used to style individual elements.
+                      <a href="https://kdlindstrom.github.io/animalshelter/"><img id="site-photo"src="img/animalshelter.png"></a>
+          </div>
 
         </div>
-        <div class="col-md-4">
-          Oh you thought that last one was bad? Check this one out! It's a site for a hypothetical animal shelter.  It shows how classes and IDs can be used to style individual elements.
         </div>
-      <div class="row" id="sample-site-pics">
-        <div class="col-md-4">
-          <a href="https://kdlindstrom.github.io/wikipedia/"><img id="site-photo"src="img/wiki.png"></a>
-        </div>
-        <div class="col-md-4">
-          <a href="https://kdlindstrom.github.io/vacation/"><img id="site-photo"src="img/vacation.png"></a>
-        </div>
-        <div class="col-md-4">
-          <a href="https://kdlindstrom.github.io/animalshelter/"><img id="site-photo"src="img/animalshelter.png"></a>
-        </div>
-      </div>
-      </div>
 
     </div>
 
-  </div>
+  <div id="third-section">
+
+    </div>
 </body>
 </html>
