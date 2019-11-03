@@ -2,12 +2,9 @@ body {
   background-color:lightgray;
 
 }
-.face-header{
-  height:400px;
-  width:auto;
-}
-#profile {
-   max-height:400px;
+
+#profile-pic {
+   height: 416px;
    width:auto;
    float: right;
 
@@ -32,12 +29,15 @@ body {
   height: 1100px;
   width: auto;
 }
-#vacation-photo{
-  width:100%;
+#site-photo{
+  width:75%;
   height:auto;
   padding-top: 3%;
+  margin:auto;
+  display: block;
+
 }
-#vacation-text{
+#sample-site-text{
   color:white;
   padding: 3%;
 }
